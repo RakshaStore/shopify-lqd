@@ -1,0 +1,24 @@
+/* styles.scss.liquid */
+
+.custom-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.custom-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-navigation a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+}
