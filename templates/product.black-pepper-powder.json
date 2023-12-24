@@ -182,7 +182,8 @@
         "template--16496416981189__8b1751a2-926e-41ce-8415-d69521500323-row-3"
       ],
       "custom_css": [
-        ".image-with-text__media {border-radius: 3%;}"
+        ".image-with-text__media {border-radius: 3%; border: 10px solid yellow;}",
+        "@media (max-width: 768px) {p {font-size: 0.75em; }}"
       ],
       "settings": {
         "image_height": "adapt",
