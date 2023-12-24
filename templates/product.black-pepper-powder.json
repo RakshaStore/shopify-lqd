@@ -127,7 +127,8 @@
       ],
       "custom_css": [
         ".image-with-text__media {border-radius: 3%;}",
-        ".image-with-text__media-item {color:coral;}"
+        ".image-with-text__media-item {color: coral;}",
+        ".image-with-text__content {color: coral;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_3757.heic",
