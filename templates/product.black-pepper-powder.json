@@ -125,6 +125,9 @@
         "template--16496416981189__d5af0faa-eeb5-4695-9bbc-13431e8198d8-text-1",
         "template--16496416981189__d5af0faa-eeb5-4695-9bbc-13431e8198d8-button-1"
       ],
+      "custom_css": [
+        ".image-with-text__media {border-radius: 3%;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_3757.heic",
         "height": "adapt",
