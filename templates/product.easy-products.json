@@ -1,0 +1,797 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "background-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "easy-content-section-blank": {
+      "type": "apps",
+      "blocks": {
+        "section-blank-db97-412c-bc39-13972b17fd36": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_width": 200,
+            "img_height": 200,
+            "img_crop": "center",
+            "uk_text_align": "center",
+            "title": "The ultimate in anti-aging",
+            "title_size": "h1",
+            "tagline": "YOUR SKIN'S HERO",
+            "tagline_uk_size": "default",
+            "description": "<p>Donec mattis erat tellus. Pellentesque ac urna vitae risus tincidunt aliquet at at erat. Donec pretium sodales ipsum, sit amet commodo lacus viverra ac.<\/p>",
+            "description_uk_size": "default",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_uk_color": "primary",
+            "btn_uk_size": "default",
+            "border_rounded": false,
+            "bg_color": "",
+            "max_width": "500",
+            "scrollspy": "slide-bottom",
+            "margin": "medium",
+            "padding": "no"
+          }
+        },
+        "780f84c4-8888-4bc9-9b8e-1fc4ffcb514b": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "layout": "one",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "",
+            "bg_image": "shopify:\/\/shop_images\/ecb-cosmetic-bg.jpg",
+            "bg_image_mobile": "shopify:\/\/shop_images\/ecb-ecb-hero-mobile-beauty.jpg",
+            "bg_image_repeat": "no",
+            "bg_image_position": "top",
+            "bg_parallax": "",
+            "mask_color": "#ffffff",
+            "mask_opacity": 0.2,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "250px",
+            "pb": "250px",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "section-blank-db97-412c-bc39-13972b17fd36",
+        "780f84c4-8888-4bc9-9b8e-1fc4ffcb514b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1672801575b5122269": {
+      "type": "apps",
+      "blocks": {
+        "ce05d6d8-5c37-4bd8-b610-21606671f39e": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_width": 200,
+            "img_height": 200,
+            "img_crop": "center",
+            "uk_text_align": "center",
+            "title": "Take Years Off Your Skin!",
+            "title_size": "h2",
+            "tagline": "NO PARABENS \/ NO ARTIFICAL INGREDIENTS\/ CRUELTY FREE",
+            "tagline_uk_size": "default",
+            "description": "",
+            "description_uk_size": "default",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_uk_color": "primary",
+            "btn_uk_size": "default",
+            "border_rounded": false,
+            "bg_color": "",
+            "max_width": "1200",
+            "scrollspy": "slide-bottom",
+            "margin": "small",
+            "padding": "no"
+          }
+        },
+        "b35a75e8-d2a1-441c-b6ed-942bb5f348b2": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "layout": "one",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "",
+            "bg_image_repeat": "no",
+            "bg_image_position": "top",
+            "bg_parallax": "",
+            "mask_color": "",
+            "mask_opacity": 0.5,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "50px",
+            "pb": "0",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "ce05d6d8-5c37-4bd8-b610-21606671f39e",
+        "b35a75e8-d2a1-441c-b6ed-942bb5f348b2"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "167280326006cc901c": {
+      "type": "apps",
+      "blocks": {
+        "155911ed-7632-4bd9-b7f5-3b2861b8ddf0": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/custom-html\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "paragraph": "",
+            "html": "",
+            "custom_liquid": "",
+            "margin": "n"
+          }
+        },
+        "f04582c1-cd95-45fa-9d92-7701b46c6ab1": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_width": 200,
+            "img_height": 200,
+            "img_crop": "center",
+            "uk_text_align": "left",
+            "title": "Intensive Radance Serum",
+            "title_size": "h2",
+            "tagline": "THE DAY TIME SERUM",
+            "tagline_uk_size": "default",
+            "description": "<ul><li>Donec mattis erat tellus. Pellentesque ac urna vitae risus tincidunt aliquet at at erat. <\/li><li>Donec pretium sodales ipsum, sit amet commodo lacus viverra ac. <\/li><li>Nam pharetra nisi at iaculis sollicitudin. <\/li><li>Pellentesque condimentum est lacus, <strong>nec consequat est molestie non<\/strong>.<\/li><\/ul>",
+            "description_uk_size": "default",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_uk_color": "primary",
+            "btn_uk_size": "default",
+            "border_rounded": false,
+            "bg_color": "#FFFFFF",
+            "max_width": "1200",
+            "scrollspy": "slide-bottom",
+            "margin": "medium",
+            "padding": "default"
+          }
+        },
+        "63eb354f-e76c-41fe-92af-6307fba56c3d": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "layout": "two",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "",
+            "bg_image": "shopify:\/\/shop_images\/ecb-cosmetic-bg-2.jpg",
+            "bg_image_mobile": "shopify:\/\/shop_images\/ecb-ecb-hero-mobile-beauty-bg2.jpg",
+            "bg_image_repeat": "no",
+            "bg_image_position": "bottom",
+            "bg_parallax": "",
+            "mask_color": "",
+            "mask_opacity": 0.5,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "100px",
+            "pb": "100px",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "155911ed-7632-4bd9-b7f5-3b2861b8ddf0",
+        "f04582c1-cd95-45fa-9d92-7701b46c6ab1",
+        "63eb354f-e76c-41fe-92af-6307fba56c3d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "147cf433-14e3-43e1-bf21-fbc16e6ff058": {
+      "type": "apps",
+      "blocks": {
+        "b822adc2-cbdb-4cbc-9a33-2118fca7a758": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_width": 200,
+            "img_height": 200,
+            "img_crop": "center",
+            "uk_text_align": "left",
+            "title": "Intensive Resurface Surfacing Serum",
+            "title_size": "h2",
+            "tagline": "THE NIGHT TIME SERUM",
+            "tagline_uk_size": "default",
+            "description": "<ul><li>Donec mattis erat tellus. Pellentesque ac urna vitae risus tincidunt aliquet at at erat. <\/li><li>Donec pretium sodales ipsum, sit amet commodo lacus viverra ac. <\/li><li>Nam pharetra nisi at iaculis sollicitudin. <\/li><li>Pellentesque condimentum est lacus, <strong>nec consequat est molestie non<\/strong>.<\/li><\/ul>",
+            "description_uk_size": "default",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_uk_color": "primary",
+            "btn_uk_size": "default",
+            "border_rounded": false,
+            "bg_color": "#FFFFFF",
+            "max_width": "1200",
+            "scrollspy": "slide-bottom",
+            "margin": "medium",
+            "padding": "default"
+          }
+        },
+        "c076f826-df93-4861-89ac-c946aba1d5fb": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/custom-html\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "paragraph": "",
+            "html": "",
+            "custom_liquid": "",
+            "margin": "n"
+          }
+        },
+        "d2ead343-86bc-455d-9779-bcc1116824a7": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "layout": "two",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "",
+            "bg_image": "shopify:\/\/shop_images\/ecb-cosmetic-bg-3.jpg",
+            "bg_image_mobile": "shopify:\/\/shop_images\/ecb-ecb-hero-mobile-beauty-bg3.jpg",
+            "bg_image_repeat": "no",
+            "bg_image_position": "top",
+            "bg_parallax": "",
+            "mask_color": "",
+            "mask_opacity": 0.5,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "100px",
+            "pb": "100px",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "b822adc2-cbdb-4cbc-9a33-2118fca7a758",
+        "c076f826-df93-4861-89ac-c946aba1d5fb",
+        "d2ead343-86bc-455d-9779-bcc1116824a7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "0c01395a-39df-461c-bfda-1fa903365b85": {
+      "type": "apps",
+      "blocks": {
+        "f1462095-8602-439a-aeba-14b234be9d98": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/custom-html\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "paragraph": "",
+            "html": "",
+            "custom_liquid": "",
+            "margin": "n"
+          }
+        },
+        "7fd91e5f-9450-4c70-8109-83d3a7df017a": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_width": 200,
+            "img_height": 200,
+            "img_crop": "center",
+            "uk_text_align": "left",
+            "title": "Essential Skincare",
+            "title_size": "h2",
+            "tagline": "AMAZING SCIENTIFIC RESULTS",
+            "tagline_uk_size": "default",
+            "description": "<p>Donec mattis erat tellus. Pellentesque ac urna vitae risus tincidunt aliquet at at erat. Donec pretium sodales ipsum, sit amet commodo lacus viverra ac. Nam pharetra nisi at iaculis sollicitudin. Pellentesque condimentum est lacus, nec consequat est molestie non. Sed sed urna id ligula tempor lobortis id vel lectus. Pellentesque eu aliquam urna, ac elementum enim. <\/p><p>Morbi eros ante, fermentum at mattis nec, feugiat a velit. Nullam ac ante a sapien volutpat condimentum sit amet id felis. Integer vulputate ex nec ligula venenatis, eu euismod nulla hendrerit. Sed consequat imperdiet enim, sit amet facilisis ligula rhoncus nec.<\/p>",
+            "description_uk_size": "default",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_uk_color": "primary",
+            "btn_uk_size": "default",
+            "border_rounded": false,
+            "bg_color": "#eeeade",
+            "max_width": "1200",
+            "scrollspy": "slide-bottom",
+            "margin": "medium",
+            "padding": "default"
+          }
+        },
+        "48b5fa81-3f97-4fa1-9474-a672c5f57a1c": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "layout": "two",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "",
+            "bg_image": "shopify:\/\/shop_images\/ecb-cosmetic-bg-4.jpg",
+            "bg_image_mobile": "shopify:\/\/shop_images\/ecb-ecb-hero-mobile-beauty-bg4.jpg",
+            "bg_image_repeat": "no",
+            "bg_image_position": "top",
+            "bg_parallax": "",
+            "mask_color": "",
+            "mask_opacity": 0.5,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "100px",
+            "pb": "100px",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "f1462095-8602-439a-aeba-14b234be9d98",
+        "7fd91e5f-9450-4c70-8109-83d3a7df017a",
+        "48b5fa81-3f97-4fa1-9474-a672c5f57a1c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "c20c1fba-e811-4cf2-9a79-d79894ffdd6b": {
+      "type": "apps",
+      "blocks": {
+        "ccee02f1-23fc-44ee-9287-dfff01d2aa04": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_width": 200,
+            "img_height": 200,
+            "img_crop": "center",
+            "uk_text_align": "center",
+            "title": "10 Amazing Facts of Our Product",
+            "title_size": "h2",
+            "tagline": "DID YOU KNOW?",
+            "tagline_uk_size": "default",
+            "description": "",
+            "description_uk_size": "default",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_uk_color": "primary",
+            "btn_uk_size": "default",
+            "border_rounded": false,
+            "bg_color": "",
+            "max_width": "1200",
+            "scrollspy": "slide-bottom",
+            "margin": "medium",
+            "padding": "no"
+          }
+        },
+        "24a3c54a-6b2a-43f8-8afc-5501d5fc5b50": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "layout": "one",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "",
+            "bg_image_repeat": "no",
+            "bg_image_position": "top",
+            "bg_parallax": "",
+            "mask_color": "",
+            "mask_opacity": 0.5,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "50px",
+            "pb": "0",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "ccee02f1-23fc-44ee-9287-dfff01d2aa04",
+        "24a3c54a-6b2a-43f8-8afc-5501d5fc5b50"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1672805724e141c476": {
+      "type": "apps",
+      "blocks": {
+        "05458d18-de03-42e2-a93e-d07343b1e8af": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/features\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_position": "top",
+            "uk_text_align": "left",
+            "item_margin": "small",
+            "item_style": "",
+            "row_xs": 1,
+            "row_lg": 1,
+            "scrollspy": "slide-bottom",
+            "item1_title": "01. Donec mattis erat tellus.",
+            "item1_body": "<p>Etiam eget ante nec ipsum condimentum viverra non sit amet libero.<\/p>",
+            "item2_title": "02. Pellentesque ac urna vitae risus.",
+            "item2_body": "<p>Duis pellentesque nibh elit, molestie venenatis diam cursus eu. Maecenas varius blandit euismod.<\/p>",
+            "item3_title": "03. Nam pharetra nisi at iaculis.",
+            "item3_body": "<p>Pellentesque lacinia consectetur auctor.<\/p>",
+            "item4_title": "04. Etiam eget ante nec ipsum.",
+            "item4_body": "<p>Nulla vel laoreet elit, quis fermentum leo. Aliquam in urna arcu.<\/p>",
+            "item5_title": "05. Ut lobortis euismod laoreet.",
+            "item5_body": "<p>Etiam eget ante nec ipsum condimentum viverra non sit amet libero.<\/p>",
+            "item6_title": "",
+            "item6_body": ""
+          }
+        },
+        "6b340651-ceab-4e0c-b53f-c80ae07bf5d7": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/image-grid\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_width": 400,
+            "img_height": 600,
+            "img_crop": "center",
+            "img_border": "",
+            "animation": "slide",
+            "row_xs": 1,
+            "row_sm": 1,
+            "row_lg": 1,
+            "uk_gap": "medium",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "item1_image": "shopify:\/\/shop_images\/ecb-cosmetic-6.jpg",
+            "scrollspy": "scale-up",
+            "margin": "medium"
+          }
+        },
+        "3a74855d-460f-4fce-9782-e4e7d95acf6c": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/features\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_position": "top",
+            "uk_text_align": "right",
+            "item_margin": "small",
+            "item_style": "",
+            "row_xs": 1,
+            "row_lg": 1,
+            "scrollspy": "slide-bottom",
+            "item1_title": "06. Donec mattis erat tellus.",
+            "item1_body": "<p>Etiam eget ante nec ipsum condimentum viverra non sit amet libero.<\/p>",
+            "item2_title": "07. Pellentesque ac urna vitae risus.",
+            "item2_body": "<p>Duis pellentesque nibh elit, molestie venenatis diam cursus eu. Maecenas varius blandit euismod.<\/p>",
+            "item3_title": "08. Nam pharetra nisi at iaculis.",
+            "item3_body": "<p>Pellentesque lacinia consectetur auctor.<\/p>",
+            "item4_title": "09. Etiam eget ante nec ipsum.",
+            "item4_body": "<p>Nulla vel laoreet elit, quis fermentum leo. Aliquam in urna arcu.<\/p>",
+            "item5_title": "10. Ut lobortis euismod laoreet.",
+            "item5_body": "<p>Etiam eget ante nec ipsum condimentum viverra non sit amet libero.<\/p>",
+            "item6_title": "",
+            "item6_body": ""
+          }
+        },
+        "90944234-4937-45e8-82ca-15134204f79f": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "mw": "1600px",
+            "layout": "three-equal",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "",
+            "bg_image_repeat": "no",
+            "bg_image_position": "top",
+            "bg_parallax": "",
+            "mask_color": "",
+            "mask_opacity": 0.5,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "50px",
+            "pb": "50px",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "05458d18-de03-42e2-a93e-d07343b1e8af",
+        "6b340651-ceab-4e0c-b53f-c80ae07bf5d7",
+        "3a74855d-460f-4fce-9782-e4e7d95acf6c",
+        "90944234-4937-45e8-82ca-15134204f79f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "f077cbc1-40a6-4de7-ab19-5b317f0ac4a9": {
+      "type": "apps",
+      "blocks": {
+        "2e05fa48-99ff-46b3-ab41-3720e1c930fe": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_width": 200,
+            "img_height": 200,
+            "img_crop": "center",
+            "uk_text_align": "center",
+            "title": "Good for you, Good for your wallet.",
+            "title_size": "h2",
+            "tagline": "BUY WITH CONFIDENCE",
+            "tagline_uk_size": "default",
+            "description": "",
+            "description_uk_size": "default",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_uk_color": "primary",
+            "btn_uk_size": "default",
+            "border_rounded": false,
+            "bg_color": "",
+            "max_width": "1200",
+            "scrollspy": "slide-bottom",
+            "margin": "medium",
+            "padding": "no"
+          }
+        },
+        "fbf97eaf-5ba7-4794-a034-1da8dd914559": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/features\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_position": "top",
+            "uk_text_align": "left",
+            "item_margin": "small",
+            "item_style": "p-2 image-width-32",
+            "row_xs": 2,
+            "row_lg": 4,
+            "scrollspy": "slide-bottom",
+            "item1_title": "Free Delivery",
+            "item1_body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non orci eu ipsum molestie suscipit.<\/p>",
+            "item1_image": "shopify:\/\/shop_images\/ecb-truck.svg",
+            "item2_title": "100% Satisfaction",
+            "item2_body": "<p>Donec mattis erat tellus. Pellentesque ac urna vitae risus tincidunt aliquet at at erat.<\/p>",
+            "item2_image": "shopify:\/\/shop_images\/ecb-heart.svg",
+            "item3_title": "Secure Shopping",
+            "item3_body": "<p>Etiam eget ante nec ipsum condimentum viverra non sit amet libero.<\/p>",
+            "item3_image": "shopify:\/\/shop_images\/ecb-cart-check.svg",
+            "item4_title": "Money Back Guarantee",
+            "item4_body": "<p>Ut lobortis euismod laoreet. Donec tincidunt libero id purus consequat fermentum.<\/p>",
+            "item4_image": "shopify:\/\/shop_images\/ecb-piggy-bank.svg",
+            "item5_title": "",
+            "item5_body": "",
+            "item6_title": "",
+            "item6_body": ""
+          }
+        },
+        "a931ff12-d6ce-4a2a-aa63-a88af9dd1637": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "layout": "one",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "#eeeade",
+            "bg_image_repeat": "no",
+            "bg_image_position": "top",
+            "bg_parallax": "",
+            "mask_color": "",
+            "mask_opacity": 0.5,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "50px",
+            "pb": "30px",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "2e05fa48-99ff-46b3-ab41-3720e1c930fe",
+        "fbf97eaf-5ba7-4794-a034-1da8dd914559",
+        "a931ff12-d6ce-4a2a-aa63-a88af9dd1637"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "167280762138a36f7b": {
+      "type": "apps",
+      "blocks": {
+        "42785b27-4669-492b-b67c-752eb405ca0e": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "img_width": 200,
+            "img_height": 200,
+            "img_crop": "center",
+            "uk_text_align": "center",
+            "title": "Frequently purchased together",
+            "title_size": "h2",
+            "tagline": "DISCOVER MORE",
+            "tagline_uk_size": "default",
+            "description": "",
+            "description_uk_size": "default",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_uk_color": "primary",
+            "btn_uk_size": "default",
+            "border_rounded": false,
+            "bg_color": "",
+            "max_width": "",
+            "scrollspy": "slide-bottom",
+            "margin": "medium",
+            "padding": "no"
+          }
+        },
+        "7d563d80-f0ec-4a33-a22c-b4d1050b1172": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/featured-products\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "source": "collection",
+            "products": [
+
+            ],
+            "collection": "demo",
+            "limit": 8,
+            "collection_list": [
+
+            ],
+            "card_style": "default",
+            "card_size": "small",
+            "box_shadow": "small",
+            "border_rounded": false,
+            "uk_text_align": "left",
+            "show_desc": false,
+            "desc_len": 200,
+            "img_width": 600,
+            "img_height": 400,
+            "img_crop": "center",
+            "width_xs": "3-4",
+            "width_lg": "1-3",
+            "uk_gap": "medium",
+            "show_controls": true,
+            "nav_outside": false,
+            "show_nav": true,
+            "autoplay": 0,
+            "sets": true,
+            "scrollspy": "slide-bottom",
+            "margin": "medium"
+          }
+        },
+        "d6c42d74-bf9c-4400-8d1a-88f2331734ed": {
+          "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "layout": "one",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "",
+            "bg_image_repeat": "no",
+            "bg_image_position": "top",
+            "bg_parallax": "",
+            "mask_color": "",
+            "mask_opacity": 0.5,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "50px",
+            "pb": "0",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "42785b27-4669-492b-b67c-752eb405ca0e",
+        "7d563d80-f0ec-4a33-a22c-b4d1050b1172",
+        "d6c42d74-bf9c-4400-8d1a-88f2331734ed"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "easy-content-section-blank",
+    "1672801575b5122269",
+    "167280326006cc901c",
+    "147cf433-14e3-43e1-bf21-fbc16e6ff058",
+    "0c01395a-39df-461c-bfda-1fa903365b85",
+    "c20c1fba-e811-4cf2-9a79-d79894ffdd6b",
+    "1672805724e141c476",
+    "f077cbc1-40a6-4de7-ab19-5b317f0ac4a9",
+    "167280762138a36f7b"
+  ]
+}
