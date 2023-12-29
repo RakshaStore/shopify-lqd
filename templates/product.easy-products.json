@@ -126,6 +126,8 @@
           "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
           "settings": {
             "fullwidth": false,
+            "mw": "",
+            "mw_mobile": "",
             "layout": "one",
             "layout_mobile": "one",
             "column_main": 50,
@@ -188,6 +190,8 @@
           "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
           "settings": {
             "fullwidth": false,
+            "mw": "",
+            "mw_mobile": "",
             "layout": "one",
             "layout_mobile": "one",
             "column_main": 50,
@@ -257,6 +261,8 @@
           "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
           "settings": {
             "fullwidth": false,
+            "mw": "",
+            "mw_mobile": "",
             "layout": "two",
             "layout_mobile": "one",
             "column_main": 50,
@@ -329,6 +335,8 @@
           "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
           "settings": {
             "fullwidth": false,
+            "mw": "",
+            "mw_mobile": "",
             "layout": "two",
             "layout_mobile": "one",
             "column_main": 50,
@@ -401,6 +409,8 @@
           "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
           "settings": {
             "fullwidth": false,
+            "mw": "",
+            "mw_mobile": "",
             "layout": "two",
             "layout_mobile": "one",
             "column_main": 50,
@@ -464,6 +474,8 @@
           "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
           "settings": {
             "fullwidth": false,
+            "mw": "",
+            "mw_mobile": "",
             "layout": "one",
             "layout_mobile": "one",
             "column_main": 50,
@@ -532,7 +544,7 @@
             "row_lg": 1,
             "uk_gap": "medium",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "item1_image": "shopify:\/\/shop_images\/ecb-cosmetic-6.jpg",
+            "item1_image": "shopify:\/\/shop_images\/WhatsAppImage2023-11-05at19.34.03.jpg",
             "scrollspy": "scale-up",
             "margin": "medium"
           }
@@ -566,6 +578,7 @@
           "settings": {
             "fullwidth": false,
             "mw": "1600px",
+            "mw_mobile": "",
             "layout": "three-equal",
             "layout_mobile": "one",
             "column_main": 50,
@@ -656,6 +669,8 @@
           "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
           "settings": {
             "fullwidth": false,
+            "mw": "",
+            "mw_mobile": "",
             "layout": "one",
             "layout_mobile": "one",
             "column_main": 50,
@@ -730,6 +745,7 @@
             "box_shadow": "small",
             "border_rounded": false,
             "uk_text_align": "left",
+            "show_btn": false,
             "show_desc": false,
             "desc_len": 200,
             "img_width": 600,
@@ -751,6 +767,8 @@
           "type": "shopify:\/\/apps\/easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
           "settings": {
             "fullwidth": false,
+            "mw": "",
+            "mw_mobile": "",
             "layout": "one",
             "layout_mobile": "one",
             "column_main": 50,
